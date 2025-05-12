@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-div.css"> 
+    <title>Tabuada</title>
+</head>
+    
+</head>
+<body>
+    <header>
+        <a target="_blank " href="portifolio"> <img  width="110px" id="logo" src="imgs/Logo-GM.png" alt=""></a>
+        <h1 id="tabuada"> 
+            Calculo (X / Y = N)   
+        </h1>
+    </header>
+    
+    <section>
+        <div id="menu-img">
+            <img id="menu" onclick=" menu() " width="50px" src="imgs/calculadora.png" alt="">
+        </div>
+        <div id="conta" >
+            <ul>
+                <li><a target="_blank" href=" index-soma.html" > Soma (+)</a></li>
+                <br>
+                <li><a target="_blank" href=" index-sub.html" > Subtração (-)</a></li>
+                <br>
+                <li><a target="_blank" href=" index.html" > Multipicação (*)</a></li>
+                <br>
+                <li><a target="_blank" href=" index-divisao.html" > Divisão (/)</a></li>
+            </ul>
+        </div>
+        <div id="Dzero">
+            <p>
+                Qual o primeiro valor da Divisão ?
+                <br>
+                <br>
+                <input id="num" class="input" type="number">
+            </p>
+            <p>
+                Qual o segundo valor da divisão ?
+                <br>
+                <br>
+                <input id="end" class="input" type="number">
+            </p>
+            <input type="button" value="Calcular" onclick="tabuada()" id="botao">
+        </div>
+        <div id="resultado">
+            <p>
+                Preencha os valores acima!!
+            </p>
+        </div>
+
+       
+    </section>
+    <script src="tabuada-script-divisao.js"></script>
+</body>
+</html>
